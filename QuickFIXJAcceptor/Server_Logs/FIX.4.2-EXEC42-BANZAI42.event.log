@@ -1,0 +1,6 @@
+20200515-03:03:48: Session FIX.4.2:EXEC42->BANZAI42 schedule is weekly, SUN 00:00:00-UTC - SAT 00:00:00-UTC
+20200515-03:03:48: Created session: FIX.4.2:EXEC42->BANZAI42
+20200515-03:03:55: Accepting session FIX.4.2:EXEC42->BANZAI42 from /127.0.0.1:52111
+20200515-03:03:55: Acceptor heartbeat set to 30 seconds
+20200515-03:03:55: Received logon
+20200515-03:03:55: Responding to Logon request

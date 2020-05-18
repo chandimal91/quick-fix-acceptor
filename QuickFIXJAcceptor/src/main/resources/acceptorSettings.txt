@@ -7,6 +7,20 @@ ReconnectInterval=6030
 
 [SESSION] #A single session
 BeginString=FIX.4.2
+SenderCompID=EXEC41
+TargetCompID=BANZAI41
+StartDay=sunday
+EndDay=saturday
+StartTime=00:00:00
+EndTime=00:00:00
+CheckLatency=N
+SocketAcceptPort=3354
+UseDataDictionary=Y
+DataDictionary=./FIX42.xml
+FileStorePath=./Server_Seq_Store
+
+[SESSION] #B single session
+BeginString=FIX.4.2
 SenderCompID=EXEC42
 TargetCompID=BANZAI42
 StartDay=sunday
@@ -15,6 +29,20 @@ StartTime=00:00:00
 EndTime=00:00:00
 CheckLatency=N
 SocketAcceptPort=3355
+UseDataDictionary=Y
+DataDictionary=./FIX42.xml
+FileStorePath=./Server_Seq_Store
+
+[SESSION] #C single session
+BeginString=FIX.4.2
+SenderCompID=EXEC43
+TargetCompID=BANZAI43
+StartDay=sunday
+EndDay=saturday
+StartTime=00:00:00
+EndTime=00:00:00
+CheckLatency=N
+SocketAcceptPort=3356
 UseDataDictionary=Y
 DataDictionary=./FIX42.xml
 FileStorePath=./Server_Seq_Store

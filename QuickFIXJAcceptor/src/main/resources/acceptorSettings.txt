@@ -1,7 +1,7 @@
 #default settings for sessions
 [DEFAULT]    # ——-> This will applies to all sessions
 ConnectionType=acceptor
-ResetOnLogon=Y
+ResetOnLogon=N
 FileLogPath=./Server_Logs
 ReconnectInterval=6030
 
